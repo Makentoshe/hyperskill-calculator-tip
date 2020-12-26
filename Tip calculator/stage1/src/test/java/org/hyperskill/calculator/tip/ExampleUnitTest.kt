@@ -44,6 +44,9 @@ class ExampleUnitTest {
 
         val message4 = "\"slider\" should have proper valueTo attribute"
         assertEquals(message4, slider.valueTo, 100.0f)
+
+        val message5 = "\"slider\" should have proper initial value"
+        assertEquals(message5, 0f, slider.value)
     }
 
     @Test
